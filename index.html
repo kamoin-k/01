@@ -49,7 +49,7 @@
         }
 
         // スプレッドシートのデータを更新
-        function updateSpreadsheet(name, imageData) {
+        function updateSpreadsheet(name) {
             var xhr = new XMLHttpRequest();
             xhr.open('POST', 'https://script.google.com/macros/s/AKfycby9W39wckcO2UuB_gtyr5SwstYT8SVxsRZDRmqZSMgIIRI3Ula_NumgMGemk1wraNMS7w/exec', true);  // ご自身のGAS WebアプリのURLに置き換えてください
             xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
